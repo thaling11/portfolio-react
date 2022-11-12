@@ -1,16 +1,15 @@
 import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/Header/index';
+// import Footer from './components/Footer/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-// Run app
 function App() {
 
   return (
     <div className="App">
       <Header/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

@@ -1,17 +1,24 @@
-import React from 'react';
-import Navigation from '../Navigation';
+import React from "react";
 
-function Header() {
-    return (
-        <div className="header">
-            <div>
-                <h1>Tori Haling</h1>
-            </div>
-            <div>
-                <Navigation />
-            </div>
-        </div>
-    )
-}
+const Header = () => {
+  return (
+    <nav>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="#about">Resume</a>
+        </li>
+      </ul>
+    </nav>
+  );
+};
 
 export default Header;
