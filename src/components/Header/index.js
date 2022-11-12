@@ -2,6 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
+      <div>
     <nav>
       <ul>
         <li>
@@ -14,10 +15,14 @@ const Header = () => {
           <a href="#contact">Contact</a>
         </li>
         <li>
-          <a href="#about">Resume</a>
+          <a href="#resume">Resume</a>
         </li>
       </ul>
     </nav>
+    <div>
+        <h2>Tori Haling</h2>
+    </div>
+    </div>
   );
 };
 
