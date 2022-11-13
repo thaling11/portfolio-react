@@ -2,7 +2,7 @@
   background-color: #333;
   overflow: hidden;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 #navbar a {
@@ -11,10 +11,90 @@
    color: rgba(156, 252, 248, 1);
 }
 
+#navbar a:hover {
+    background-color: rgba(156, 252, 248, 1);
+    color:#333;
+    
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 100px;
+}
+
 h2, 
 #contact, 
 #about, 
 #portfolio, 
 #resume {
     margin: 20px;
+    text-align: center;
+}
+
+#contact
+ {
+  display: flex;
+  flex-direction: column;
+}
+
+#email,
+#name {
+  justify-content: center;
+ 
+}
+
+#content {
+  width: 325px;
+  height: 200px;
+  text-align: left;
+  justify-content: center;
+}
+
+#about {
+  display: flex;
+}
+
+#profile-picture,
+#about-bio {
+  /* display: flex; */
+  justify-content: center;
+  margin: 0px 50px;
+  text-align: start;
+}
+
+#profile-picture {
+  height: 200px;
+  border-radius: 50%;
+}
+
+#about-bio {
+  font-size: 20px;
+  margin-top: 25px;
+  width: 700px;
+}
+
+#card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-pic
+ {
+  height: 250px;
+  justify-content: center;
+  margin: 10px 60px 10px 115px;
+  flex-wrap: wrap;
+}
+
+.links {
+  display: block;
+  margin: 0px;
+}
+
+.project-header {
+  font-size: 15px;
 }

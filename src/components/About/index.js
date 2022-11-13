@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import image from '../../Assets/profile-picture.jpeg';
 
 const About = () => {
   return (
     <div id="about">
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+      <p id="about-bio">Welcome! I'm a full stack web developer based in Denver, CO. I have a background in healthcare with a passion for building and designing applications that have a meaningful impact. In addition to web development, I enjoy rock climbing, camping, and reading. </p>
+      <img src={image} id="profile-picture"/>
     </div>
   )
 }

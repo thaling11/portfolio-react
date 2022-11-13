@@ -1,16 +1,50 @@
-import React from 'react';
+import React, { useState } from "react";
 
 const Contact = () => {
-    return (
-        <section id="contact">
-            <div>
-                
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-            </div>
-        </section>
-    )
-}
+  const [name, setName] = useState("Name");
+  const [email, setEmail] = useState("Email");
+  const [content, setContent] = useState("Message");
 
-
+  const handleNameChange = (event) => {
+    setName(event.target.value);
+  };
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+  const handleContentChange = (event) => {
+    setContent(event.target.value);
+  };
+  return (
+    <section id="contact">
+      <h3>Contact</h3>
+      <div>
+        <input
+          id="name"
+          name="name"
+          type="text"
+          defaultValue="Name"
+          onChange={handleNameChange}
+          value={name}
+        />
+        <input
+          id="email"
+          name="email"
+          type="text"
+          defaultValue="Email"
+          onChange={handleEmailChange}
+          value={email}
+        />
+        <input
+          id="content"
+          name="content"
+          type="text"
+          defaultValue="Message"
+          onChange={handleContentChange}
+          value={content}
+        />
+      </div>
+    </section>
+  );
+};
 
 export default Contact;
