@@ -4,9 +4,20 @@ const Resume = () => {
     return (
         <section id="resume">
             <div>
-                
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                <h3>Resume</h3>
+            <a href="https://docs.google.com/document/d/e/2PACX-1vRwfSeCOTTOwyelDZe47ZcK9OXfxp9Fh3hKS0Ss26T_XyBegzLGxnEUp0dTFw9_XiF_yTXdGfSyFFro/pub" target={"_blank"} id="resume-link">Link to Resume</a>
             </div>
+            <h5>Proficienies:</h5>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>MySQL</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Handlebars</li>
+                <li>React</li>
+                <li>Third party API's</li>
+            </ul>
         </section>
     )
 }

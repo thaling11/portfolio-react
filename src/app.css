@@ -54,10 +54,20 @@ h2,
 #content {
   width: 325px;
   height: 200px;
-  text-align: left;
-  justify-content: center;
+  /* text-align: left; */
   margin-top: 5px;
+  padding: 0;
 
+}
+
+#submit-button {
+  display: block;
+  margin: 20px 45% 5px 47%;
+  background-color: #333;
+  color: rgba(156, 252, 248, 1);
+  height: 50px;
+  width: 100px;
+  font-size: 18px;
 }
 
 #about {
@@ -118,4 +128,9 @@ h2,
 
 #project-wrapper {
   display: flex;
+}
+
+#resume-link {
+  font-size: 20px;
+  color: rgb(4, 4, 151)
 }
