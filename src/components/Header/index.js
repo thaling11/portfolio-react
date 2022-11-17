@@ -13,7 +13,7 @@ const Header = () => {
         <a href="#resume">Resume</a>
       </nav>
       <div>
-        <h2>Tori Haling</h2>
+        <h2 id="name-header">Tori Haling</h2>
       </div>
     </div>
   );

@@ -20,6 +20,11 @@
 h2 {
   font-size: 35px;
   text-align: center;
+  margin-right: 100px;
+}
+
+#name-header {
+  margin: 50px 50px 20px 0px;
 }
 
 h3 {
@@ -37,14 +42,13 @@ h2,
 
 #contact
  {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 #email,
 #name {
-  justify-content: center;
- 
+  display: block;
+  margin: 20px 45% 5px 45%;
 }
 
 #content {
@@ -52,6 +56,8 @@ h2,
   height: 200px;
   text-align: left;
   justify-content: center;
+  margin-top: 5px;
+
 }
 
 #about {
@@ -62,12 +68,12 @@ h2,
 #about-bio {
   /* display: flex; */
   justify-content: center;
-  margin: 0px 50px;
-  text-align: start;
+  margin: 0px 40px 0px 115px;
+  text-align: center;
 }
 
 #profile-picture {
-  height: 200px;
+  height: 175px;
   border-radius: 50%;
 }
 
@@ -90,11 +96,26 @@ h2,
   flex-wrap: wrap;
 }
 
+.project-pic2 {
+  height: 250px;
+  justify-content: center;
+  margin: 30px 50px 10px 105px;
+  flex-wrap: wrap;
+}
+
 .links {
   display: block;
-  margin: 0px;
+  margin-left: 50px;
+  font-size: 17px;
+  color: rgb(4, 4, 151)
 }
 
 .project-header {
-  font-size: 15px;
+  font-size: 20px;
+  margin-left: 50px;
+  text-decoration: underline;
+}
+
+#project-wrapper {
+  display: flex;
 }
