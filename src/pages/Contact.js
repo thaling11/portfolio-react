@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { validateEmail } from "../../utils/helpers";
+import { validateEmail } from "../utils/helpers";
 
 function Contact() {
   const [nameInput, setName] = useState("");
@@ -18,6 +18,7 @@ function Contact() {
       setName(inputValue);
     } else {
       setContent(inputValue);
+      console.log(content)
     }
   };
 
@@ -29,7 +30,7 @@ function Contact() {
       return;
     }
 
-    if (!setContent(content)) {
+    if (!content) {
       setErrorMessage("Please enter a message");
       return;
     }

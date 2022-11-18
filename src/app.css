@@ -134,3 +134,12 @@ h2,
   font-size: 20px;
   color: rgb(4, 4, 151)
 }
+
+li, h5 {
+  list-style: none;
+  font-size: 17px;
+}
+
+li {
+  margin-right: 40px;
+}
