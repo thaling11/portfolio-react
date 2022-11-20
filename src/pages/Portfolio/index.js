@@ -1,10 +1,10 @@
 import React from 'react';
-import imageProject3 from '../Assets/final-project-placeholder.jpg';
-import imageHealthTracker from '../Assets/health-tracker.jpg';
-import imageAirQuality from '../Assets/air-quality.jpg';
-import codingQuiz from '../Assets/coding-quiz.jpg';
-import techBlog from '../Assets/tech-blog.jpg';
-import noteTaker from '../Assets/note-taker.jpg';
+import imageProject3 from '../../Assets/final-project-placeholder.jpg';
+import imageHealthTracker from '../../Assets/health-tracker.jpg';
+import imageAirQuality from '../../Assets/air-quality.jpg';
+import codingQuiz from '../../Assets/coding-quiz.jpg';
+import techBlog from '../../Assets/tech-blog.jpg';
+import noteTaker from '../../Assets/note-taker.jpg';
 
 const Portfolio = () => {
     return (

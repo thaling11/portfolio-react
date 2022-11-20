@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./components/Header";
-import About from "./pages/About.js";
-import Portfolio from "./pages/Portfolio.js";
-import Resume from "./pages/Resume.js";
-import Contact from "./pages/Contact.js";
-import Footer from "./components/Footer/index";
+import About from "./pages/About/index.js";
+import Portfolio from "./pages/Portfolio/index.js";
+import Resume from "./pages/Resume/index.js";
+import Contact from "./pages/Contact/index.js";
+import Footer from "./components/Footer/index.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -17,10 +17,10 @@ function App() {
      
         <Routes>
           <Route path="/portfolio-react" element={<About/>} />
-          <Route path="/portfolio-react" element={<About/>} />
-          <Route path="/portfolio-react/portfolio" element={<Portfolio/>} />
-          <Route path="/portfolio-react/contact" element={<Contact/>} />
-          <Route path="/portfolio-react/resume" element={<Resume/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/portfolio" element={<Portfolio/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/resume" element={<Resume/>} />
         </Routes>
       <Footer />
       </div>
