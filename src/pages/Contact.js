@@ -18,15 +18,19 @@ function Contact() {
       setName(inputValue);
     } else {
       setContent(inputValue);
-      console.log(content)
+      console.log(content);
     }
   };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email) || !nameInput) {
+    if (!validateEmail(email)) {
       setErrorMessage("Invalid email, please try again");
+      return;
+    }
+    if (!nameInput) {
+      setErrorMessage("Please enter a name");
       return;
     }
 
@@ -42,8 +46,9 @@ function Contact() {
 
   return (
     <section id="contact">
-      <h3>Contact</h3>
+      <h3>Contact Me!</h3>
       <form>
+        <p>Name:</p>
         <input
           id="name"
           name="name"
@@ -51,6 +56,7 @@ function Contact() {
           onChange={handleInputChange}
           value={nameInput}
         />
+        <p>Email:</p>
         <input
           id="email"
           name="email"
@@ -58,6 +64,7 @@ function Contact() {
           onChange={handleInputChange}
           value={email}
         />
+        <p>Message:</p>
         <textarea
           id="content"
           name="content"
@@ -71,7 +78,7 @@ function Contact() {
       </form>
       {errorMessage && (
         <div>
-          <p >{errorMessage}</p>
+          <p>{errorMessage}</p>
         </div>
       )}
     </section>

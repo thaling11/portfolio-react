@@ -6,49 +6,52 @@
 }
 
 #navbar a {
-   text-decoration: none;
-   margin: 20px;
-   color: rgba(156, 252, 248, 1);
+  text-decoration: none;
+  margin: 20px;
+  color: rgba(156, 252, 248, 1);
 }
 
 #navbar a:hover {
-    background-color: rgba(156, 252, 248, 1);
-    color:#333;
-    
+  background-color: rgba(156, 252, 248, 1);
+  color: #333;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 h2 {
   font-size: 35px;
   text-align: center;
-  margin-right: 100px;
-}
-
-#name-header {
-  margin: 50px 50px 20px 0px;
 }
 
 h3 {
   margin-top: 100px;
+  font-size: 35px;
 }
 
-h2, 
-#contact, 
-#about, 
-#portfolio, 
-#resume {
-    margin: 20px;
-    text-align: center;
+h2,
+#contact,
+#about,
+#portfolio
+{
+  margin: 20px;
+  text-align: center;
 }
 
-#contact
- {
+#contact {
   display: block;
 }
 
 #email,
 #name {
   display: block;
-  margin: 20px 45% 5px 45%;
+  margin: 0px 45% 5px 45%;
 }
 
 #content {
@@ -57,7 +60,6 @@ h2,
   /* text-align: left; */
   margin-top: 5px;
   padding: 0;
-
 }
 
 #submit-button {
@@ -70,27 +72,21 @@ h2,
   font-size: 18px;
 }
 
-#about {
-  display: flex;
-}
-
-#profile-picture,
-#about-bio {
-  /* display: flex; */
-  justify-content: center;
-  margin: 0px 40px 0px 115px;
-  text-align: center;
-}
-
 #profile-picture {
   height: 175px;
+  width: 175px;
   border-radius: 50%;
+  justify-content: center;
+  align-content: center;
 }
 
 #about-bio {
   font-size: 20px;
   margin-top: 25px;
   width: 700px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 #card-wrapper {
@@ -98,8 +94,7 @@ h2,
   flex-wrap: wrap;
 }
 
-.project-pic
- {
+.project-pic {
   height: 250px;
   justify-content: center;
   margin: 10px 60px 10px 115px;
@@ -117,7 +112,7 @@ h2,
   display: block;
   margin-left: 50px;
   font-size: 17px;
-  color: rgb(4, 4, 151)
+  color: rgb(4, 4, 151);
 }
 
 .project-header {
@@ -131,15 +126,48 @@ h2,
 }
 
 #resume-link {
-  font-size: 20px;
-  color: rgb(4, 4, 151)
+  font-size: 22px;
+  color: rgb(4, 4, 151);
+  margin-top: 100px;
+ 
 }
 
-li, h5 {
+li,
+h5 {
   list-style: none;
-  font-size: 17px;
+  font-size: 22px;
 }
 
-li {
-  margin-right: 40px;
+
+#resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
+
+#proficiencies {
+  background-color: rgb(147, 183, 246);
+  width: 500px;
+  align-content: center;
+  margin-top: 80px;
+  padding: 15px;
+}
+h5 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer-links {
+  height: 50px;
+  margin: 100px 20px 20px 10px;
+}
+
+

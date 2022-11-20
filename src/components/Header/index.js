@@ -12,9 +12,6 @@ const Header = () => {
 
         <a href="resume">Resume</a>
       </nav>
-      <div>
-        <h2 id="name-header">Tori Haling</h2>
-      </div>
     </div>
   );
 };
