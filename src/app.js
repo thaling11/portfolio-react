@@ -11,16 +11,16 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div id="App" >
       <Header />
      
         <Routes>
-          <Route path="/portfolio-react/about" element={<About/>} />
-          <Route path="/portfolio-react/about" element={<About/>} />
-          <Route path="/portfolio-react/portfolio" element={<Portfolio/>} />
-          <Route path="/portfolio-react/contact" element={<Contact/>} />
-          <Route path="/portfolio-react/resume" element={<Resume/>} />
+          <Route path="/portfolio-react" element={<About/>} />
+          <Route path="/portfolio-react" element={<About/>} />
+          <Route path="/portfolio" element={<Portfolio/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/resume" element={<Resume/>} />
         </Routes>
       <Footer />
       </div>
