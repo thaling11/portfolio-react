@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <nav >
+      <nav id="navbar" >
      
         <a href="about">About</a>
 

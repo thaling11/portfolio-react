@@ -11,10 +11,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router >
       <div id="App" >
       <Header />
-     
         <Routes>
           <Route path="/portfolio-react" element={<About/>} />
           <Route path="/portfolio-react" element={<About/>} />
