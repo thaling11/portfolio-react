@@ -1,17 +1,27 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <div>
       <nav id="navbar" >
      
-        <a href="about">About</a>
+      <Link to={`/portfolio-react/about`}>
+          About
+        </Link>
 
-        <a href="portfolio">Portfolio</a>
+        <Link to={`/portfolio-react/portfolio`}>
+          Portfolio
+        </Link>
 
-        <a href="contact">Contact</a>
+        <Link to={`/portfolio-react/contact`}>
+          Contact
+        </Link>
 
-        <a href="resume">Resume</a> 
+        
+        <Link to={`/portfolio-react/resume`}>
+          Resume
+        </Link>
       </nav>
     </div>
   );
