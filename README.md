@@ -16,3 +16,15 @@ SO THAT I can assess whether they're a good candidate for an open position
 ## Mock-Up
 
 The following animation shows the web application's appearance:
+
+![About page](/src/Assets/about-pic.jpg)
+
+![Portfolio page](/src/Assets/porfolio.jpg)
+
+![Contact page](/src/Assets/contact.jpg)
+
+![Resume page](/src/Assets/resume.jpg)
+
+
+## Deployed Application Link
+https://thaling11.github.io/portfolio-react/
