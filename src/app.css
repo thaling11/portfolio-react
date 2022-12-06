@@ -108,6 +108,10 @@ h2,
   flex-wrap: wrap;
 }
 
+#kin {
+  width: 370px;
+}
+
 .links {
   display: block;
   margin-left: 50px;

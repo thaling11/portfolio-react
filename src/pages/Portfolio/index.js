@@ -1,5 +1,5 @@
 import React from 'react';
-import imageProject3 from '../../Assets/final-project-placeholder.jpg';
+import imageKIN from '../../Assets/homepage-img.jpg';
 import imageHealthTracker from '../../Assets/health-tracker.jpg';
 import imageAirQuality from '../../Assets/air-quality.jpg';
 import codingQuiz from '../../Assets/coding-quiz.jpg';
@@ -14,10 +14,10 @@ const Portfolio = () => {
             </div>
             <section id="card-wrapper">
             <div>
-                <img src={imageProject3} class="project-pic" />
-                <h5 className="project-header">Project 1</h5>
-                <a className="links" target="blank">Github link</a>
-                <a className="links" target="blank">Deployed page</a>
+                <img src={imageKIN} class="project-pic" id="kin" />
+                <h5 className="project-header">KIN: Knowldge In Numbers</h5>
+                <a href="https://github.com/AFaidley/KIN" target="blank" className="links">Github link</a>
+                <a href="https://knowledge-in-numbers.herokuapp.com/" target="blank" className="links">Deployed page</a>
             </div>
             <div>
                 <img src={imageHealthTracker} class="project-pic" />
